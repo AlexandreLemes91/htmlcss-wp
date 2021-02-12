@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+main{
+    margin: 30px auto;
+    max-width: 1000px;
+}
+
+main > *{
+    margin-top: 30px;
+}
+
+/* header */
+header{
+    height: 100px;
+    background-color: pink; 
+}
+.home.logo img{
+    width: 165px;
+}
+
+/* section advice */
+.advice{
+    height: 500px;
+    background-color: lightsalmon;
+}
+
+/* section articles */
+.articles{
+    background-color: mediumblue;
+}
+
+.articles header{
+    height: 70px;
+    background-color: lightskyblue;
+    margin-bottom: 30px;
+}
+
+section > article{
+    width: 20%;
+    float:left;
+    background-color: lightskyblue;
+    height: 500px;
+}
+
+section > article:last-child{
+    float:right;
+}
+
+section > article:nth-child(2){
+    width: 54%;
+    margin: 0 3% 30px;
+}
+
+/* footer */
+footer{
+    height: 50px;
+    background-color: purple;
+    margin: 15px auto;
+    max-width: 1000px;
+}
