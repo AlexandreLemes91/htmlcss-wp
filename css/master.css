@@ -37,6 +37,10 @@ h6{
     border-radius: 20px;
 }
 
+.layover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
 /* header */
 .home.logo img{
     width: 165px;
@@ -68,7 +72,6 @@ nav li{
 
 .hero > div{
     min-height: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
     padding: 350px 0 40px 40px;
     color: white;
 }
@@ -81,9 +84,9 @@ h1{
     font-size: 14px;
 }
 
-/* section articles */
+/* articles  header*/
 .articles header{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .articles>header h2{
@@ -95,10 +98,27 @@ h1{
     color: rgb(182, 182, 182);
 }
 
+/* section article */
+.pic{
+    height: 200px;
+}
+
+article *{
+    margin-bottom: 15px;
+}
+
+.img1{
+    background-image: url(../img/img-1.jpg);
+    background-size: cover;
+}
+
+article p{
+    font-size: 14px;
+}
+
 section > article{
     width: 20%;
     float:left;
-    background-color: lightskyblue;
     height: 500px;
     margin-bottom: 30px;
 }
