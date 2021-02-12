@@ -29,6 +29,10 @@ h6{
     font-weight: 600;
 }
 
+.grey{
+    color: rgb(182, 182, 182);
+}
+
 .radius{
     border-radius: 20px;
 }
@@ -51,7 +55,7 @@ nav li{
     list-style: none;
     margin-right: 10px;
     margin-top: 20px;
-    color: lightgray;
+    color: rgb(182, 182, 182);
     text-transform: uppercase;
 }
 
@@ -78,14 +82,17 @@ h1{
 }
 
 /* section articles */
-.articles{
-    background-color: mediumblue;
+.articles header{
+    margin-bottom: 30px;
 }
 
-.articles header{
-    height: 70px;
-    background-color: lightskyblue;
-    margin-bottom: 30px;
+.articles>header h2{
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.articles>header p{
+    color: rgb(182, 182, 182);
 }
 
 section > article{
@@ -93,6 +100,7 @@ section > article{
     float:left;
     background-color: lightskyblue;
     height: 500px;
+    margin-bottom: 30px;
 }
 
 section > article:last-child{
@@ -101,7 +109,8 @@ section > article:last-child{
 
 section > article:nth-child(2){
     width: 54%;
-    margin: 0 3% 30px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 /* footer */
